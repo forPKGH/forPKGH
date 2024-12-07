@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Pixeloid;
+    src: url(./fonts/PixeloidMono.otf)
+    format('opentype'),
+    url(./fonts/PixeloidSans-Bold.otf)
+    format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pixeloid', sans-serif;
+    background-color: #EFFFBB;
+    display: grid;
+    grid-template-columns: 1fr 0.001fr 1fr;
+}
+
+.team1__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    height: 100%;
+}
+
+.team2__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    height: 100vh;
+}
+
+.case{
+    max-height: 800px;
+    max-width: 500px;
+}
+
+.score {
+    align-self: flex-start;
+    font-size: 40px;
+}
+
+.separator {
+    background-color: #000;
+    height: 100vh;
+    width: 4px;
+}

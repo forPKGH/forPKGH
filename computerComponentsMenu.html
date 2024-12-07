@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компоненты компьютера</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="containerColumn">
+        <h1 class="nameGame__title">Компоненты компьютера</h1>
+        
+        <ul class="questions__container">
+            <!-- <li class="isEmpty">
+                <p>Список вопросов пуст</p>
+            </li>
+         -->
+        <!-- <li id="${newQuestion.id}" class="question__container">
+            <h2 class="question">${newQuestion.question}</h2>
+            <button class="delete-button" data-action = 'delete'>×</button>
+            <ol class="answers__ol">
+                <li class="answer">${newQuestion.answer1}</li>
+                <li class="answer">${newQuestion.answer2}</li>
+                <li class="answer">${newQuestion.answer3}</li>
+                <li class="answer">${newQuestion.answer4}</li>
+            </ol>
+        </li> -->
+    </ul>
+        <form id="addQuestion__form">
+            <div class="input__container">
+                <input type="text" name="question" id="addQuestion__input" placeholder="Введите вопрос, 4 ответа и номер правильного ответа, разделяя их “.” и нажмите Enter" rows="20">
+                <button type="submit" class="input__btn">></button>            
+            </div>
+        </form>
+    <div class="containerRow">
+        <a href="#!" class="btn__mini">Экспорт</a>
+        <a href="#!" class="btn__mini">Импорт</a>
+        <a href="../computerComponentsGame.html" class="btn__mini">Играть</a>
+    </div>
+    </div>
+    <script src="./computerComponentsMenu.js"></script>
+</body>
+</html>
